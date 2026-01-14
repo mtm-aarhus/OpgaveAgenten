@@ -750,16 +750,20 @@ pages = ["Opgaver", "Opret opgave", "Test LLM-forbindelser", "Indstillinger"]
 if st.session_state.get('nav_page') not in pages:
     st.session_state.nav_page = "Opgaver"
 
-page = st.sidebar.radio(
+# Brug session state til at styre hvilken side der vises
+# Radio uden key så vi kan styre den programmatisk via index
+selected_page = st.sidebar.radio(
     "Menu",
     pages,
-    index=pages.index(st.session_state.get('nav_page', "Opgaver")),
-    key="nav_page_radio"
+    index=pages.index(st.session_state.nav_page)
 )
 
-# Opdater nav_page når radio skifter
-if page != st.session_state.nav_page:
-    st.session_state.nav_page = page
+# Opdater nav_page hvis bruger vælger en anden side via radio
+if selected_page != st.session_state.nav_page:
+    st.session_state.nav_page = selected_page
+    st.rerun()
+
+page = st.session_state.nav_page
 
 # Side: Opgaver
 if page == "Opgaver":
@@ -829,16 +833,16 @@ if page == "Opgaver":
                 
                 st.divider()
                 st.subheader("Hurtig handling")
-                if st.button("➕ Opret ny opgave", use_container_width=True):
+                if st.button("➕ Opret ny opgave", key="quick_new_task", use_container_width=True):
                     st.session_state.nav_page = "Opret opgave"
                     st.rerun()
-                
-                if st.button("📏 Konfigurer størrelser", use_container_width=True):
+
+                if st.button("📏 Konfigurer størrelser", key="quick_config_sizes", use_container_width=True):
                     st.session_state.nav_page = "Indstillinger"
                     st.session_state.settings_tab = "📏 Opgavestørrelser"
                     st.rerun()
-                    
-                if st.button("📝 Ret standardværdier", use_container_width=True):
+
+                if st.button("📝 Ret standardværdier", key="quick_edit_defaults", use_container_width=True):
                     st.session_state.nav_page = "Indstillinger"
                     st.session_state.settings_tab = "📝 Standardværdier"
                     st.rerun()
