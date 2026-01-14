@@ -1,0 +1,48 @@
+{
+  "task_sizes": {
+    "Lille": {
+      "max_lines": 5,
+      "hours": 5.0,
+      "max_days": 7,
+      "icon": "☕",
+      "desc": "Hurtige ting, rettelser eller små tilføjelser."
+    },
+    "Mellem stor": {
+      "max_lines": 10,
+      "hours": 8.0,
+      "max_days": 15,
+      "icon": "🍱",
+      "desc": "Standard opgaver, nye features eller analyser."
+    },
+    "Stor": {
+      "max_lines": 15,
+      "hours": 12.0,
+      "max_days": 20,
+      "icon": "🏗️",
+      "desc": "Større projekter, komplekse integrationer eller nye moduler."
+    }
+  },
+  "defaults": {
+    "tovholdere": [
+      "Bruger 1",
+      "Bruger 2",
+      "Bruger 3"
+    ],
+    "afdeling": "Natur og Miljø",
+    "statuser": [
+      "Ikke startet",
+      "I gang",
+      "Venter",
+      "Færdig"
+    ],
+    "afdelinger": [
+      "Vand",
+      "Natur",
+      "Jord og Grundvand",
+      "Systemer",
+      "Digitalisering",
+      "Natur og Miljø"
+    ]
+  },
+  "custom_save_path": "C:\\Users\\azmda0l\\OneDrive - Aarhus kommune\\dataopgv"
+}

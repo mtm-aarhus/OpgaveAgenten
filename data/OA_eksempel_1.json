@@ -1,0 +1,13 @@
+{
+    "Titel": "Eksempel: Bestilling af adgangskort",
+    "Afdeling": "Systemer",
+    "Beskrivelse": "Dette er en eksempler på en lille opgave. Brugeren skal have adgangskort til den nye afdeling.",
+    "EstimeretTid": "5.0",
+    "Status": "I gang",
+    "Tovholder": "Bruger 1",
+    "Startdato": "2026-01-14",
+    "Slutdato": "2026-01-21",
+    "Opgavestørrelse": "Lille",
+    "Oprettet": "2026-01-14T11:50:00.000",
+    "Version": "1.4"
+}

@@ -1,0 +1,13 @@
+{
+    "Titel": "Eksempel: Implementering af nyt AI-modul",
+    "Afdeling": "Digitalisering",
+    "Beskrivelse": "En stor opgave der kræver analyse og implementering af nye API'er.\n\nUnderopgaver:\n1. Analyse af krav\n2. Design af arkitektur\n3. Implementering\n4. Test og verifikation",
+    "EstimeretTid": "12.0",
+    "Status": "Ikke startet",
+    "Tovholder": "Bruger 2",
+    "Startdato": "2026-01-15",
+    "Slutdato": "2026-02-05",
+    "Opgavestørrelse": "Stor",
+    "Oprettet": "2026-01-14T11:55:00.000",
+    "Version": "1.4"
+}

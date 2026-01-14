@@ -1,0 +1,39 @@
+[theme]
+# Farvetema: Japan Night
+base = "dark"
+primaryColor = "#ff2e63"
+backgroundColor = "#1a1a2e"
+secondaryBackgroundColor = "#16213e"
+textColor = "#e6e6e6"
+font = "sans serif"
+
+# Tilpasning af widget farver
+[runner]
+# Deaktiver vist af Streamlits standardtema
+magicEnabled = false
+
+# Tilpasning af widgets
+[client]
+# Deaktiver visse Streamlit standardstilarter som kan forstyrre temaet
+showErrorDetails = false
+
+# Tilpasning af knapper
+[button]
+backgroundColor = "#00adb5"
+borderRadius = "0.5rem"
+fontColor = "#ffffff"
+
+# Tilpasning af tekstfelter
+[textInput]
+backgroundColor = "#0f3460"
+borderColor = "#00adb5"
+
+# Tilpasning af selectbox
+[selectbox]
+backgroundColor = "#0f3460"
+borderColor = "#00adb5"
+
+# Tilpasning af datoinput
+[dateInput]
+backgroundColor = "#0f3460"
+borderColor = "#00adb5"
