@@ -45,14 +45,14 @@ call "%~dp0venv\Scripts\activate"
 
 :: 5. Installer/opdater pakker
 echo [INFO] Installerer pakker...
-python -m pip install -r requirements.txt --quiet
+"%~dp0venv\Scripts\python.exe" -m pip install -r requirements.txt --quiet
 
 :: 6. Start applikation og åbn browser automatisk
 echo [INFO] Starter OpgaveAgenten...
 echo [INFO] Browseren åbnes automatisk om et øjeblik...
 echo.
 start "" http://localhost:8501
-python -m streamlit run app.py --server.headless true
+"%~dp0venv\Scripts\python.exe" -m streamlit run app.py --server.headless true
 
 :: Hvis Streamlit lukker, hold vinduet åbent
 echo.
