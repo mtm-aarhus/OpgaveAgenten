@@ -267,10 +267,15 @@ st.markdown("""
 
     /* Hide the default dotted border from Streamlit if possible */
     [data-testid="stFileUploadDropzone"] {
-        border: 2px dashed #CBD5E1 !important;
-        background-color: #F8FAFC !important;
+        border: 2px dashed #003E5C !important;
+        background-color: #FFFFFF !important;
         border-radius: 8px !important;
         padding: 2rem !important;
+    }
+    
+    /* Force all text in dropzone to be dark */
+    [data-testid="stFileUploadDropzone"] * {
+        color: #003E5C !important;
     }
 
     /* Target Uploader Buttons to be Neutral with DARK TEXT */
