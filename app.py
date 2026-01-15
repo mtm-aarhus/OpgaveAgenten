@@ -297,6 +297,16 @@ st.markdown("""
         color: #1E293B !important;
         font-weight: 500 !important;
     }
+    
+    /* Extra specificity for drag and drop text */
+    [data-testid="stFileUploadDropzone"] > div,
+    [data-testid="stFileUploadDropzone"] > div > div,
+    [data-testid="stFileUploadDropzone"] > div > div > span,
+    [data-testid="stFileUploadDropzone"] section,
+    [data-testid="stFileUploadDropzone"] section span,
+    [data-testid="stFileUploadDropzone"] section small {
+        color: #1E293B !important;
+    }
 
     /* 8. Guide and Utils */
     .guide-box {
