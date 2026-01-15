@@ -798,7 +798,7 @@ if page == "Opgaver":
         st.title("📊 OA Dashboard")
         st.write("Få overblik over dine igangværende opgaver.")
     with col_logo:
-        logo_path = os.path.join(os.path.dirname(__file__), "images", "mtm-logo.png")
+        logo_path = os.path.join(os.path.dirname(__file__), "images", "mtm-logo.jpg")
         if os.path.exists(logo_path):
             st.image(logo_path, width=150)
         else:
