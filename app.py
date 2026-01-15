@@ -798,7 +798,11 @@ if page == "Opgaver":
         st.title("📊 OA Dashboard")
         st.write("Få overblik over dine igangværende opgaver.")
     with col_logo:
-        st.image("images/mtm-logo.png", width=150)
+        logo_path = os.path.join(os.path.dirname(__file__), "images", "mtm-logo.png")
+        if os.path.exists(logo_path):
+            st.image(logo_path, width=150)
+        else:
+            st.write("")  # Tom placeholder hvis logo ikke findes
     
     with st.spinner("Indlæser statistik..."):
         local_tasks = get_local_task_files()
