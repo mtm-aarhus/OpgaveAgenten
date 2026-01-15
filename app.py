@@ -267,25 +267,35 @@ st.markdown("""
 
     /* Hide the default dotted border from Streamlit if possible */
     [data-testid="stFileUploadDropzone"] {
-        border: none !important;
-        background-color: #FAFAFA !important;
+        border: 2px dashed #CBD5E1 !important;
+        background-color: #F8FAFC !important;
         border-radius: 8px !important;
+        padding: 2rem !important;
     }
 
-    /* Target Uploader Buttons to be Neutral */
+    /* Target Uploader Buttons to be Neutral with DARK TEXT */
     [data-testid="stFileUpload"] button {
-        background-color: #F1F5F9 !important;
-        color: #334155 !important;
-        border: 1px solid #E2E8F0 !important;
-    }
-
-    [data-testid="stFileUpload"] button p, [data-testid="stFileUpload"] button span {
-        color: #334155 !important;
-    }
-
-    [data-testid="stFileUpload"] p, [data-testid="stFileUpload"] span {
-        color: #334155 !important;
+        background-color: #003E5C !important;
+        color: #FFFFFF !important;
+        border: 1px solid #003E5C !important;
         font-weight: 600 !important;
+    }
+
+    [data-testid="stFileUpload"] button p, 
+    [data-testid="stFileUpload"] button span,
+    [data-testid="stFileUpload"] button div {
+        color: #FFFFFF !important;
+    }
+
+    /* File uploader text - FORCE DARK COLOR */
+    [data-testid="stFileUpload"] p, 
+    [data-testid="stFileUpload"] span,
+    [data-testid="stFileUpload"] label,
+    [data-testid="stFileUploadDropzone"] p,
+    [data-testid="stFileUploadDropzone"] span,
+    [data-testid="stFileUploadDropzone"] small {
+        color: #1E293B !important;
+        font-weight: 500 !important;
     }
 
     /* 8. Guide and Utils */
