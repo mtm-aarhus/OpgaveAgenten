@@ -99,6 +99,9 @@ Når appen kører, er den tilgængelig på: **http://localhost:8501**
 ### Power Automate Integration
 OpgaveAgenten kan integreres med Power Automate for at automatisere workflows:
 
+![Power Automate Integration](images/power-automate.png)
+*Eksempel på Power Automate flow der automatisk opretter SharePoint opgaver fra OpgaveAgenten*
+
 **Eksempel: Automatisk SharePoint integration**
 1. Vælg en OneDrive mappe i **Indstillinger → Gem-mappe**
 2. Opret et Power Automate flow med trigger "When a file is created"
