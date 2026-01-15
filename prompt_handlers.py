@@ -1,4 +1,4 @@
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from typing import Dict, Any, Optional
 import os
 from llm_providers import get_llm_manager

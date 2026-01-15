@@ -63,7 +63,15 @@ Når appen kører, er den tilgængelig på: **http://localhost:8501**
 
 ### Opret Ny Opgave
 1. **Vælg opgavestørrelse**: Lille, Mellem eller Stor
+
+![Vælg opgavestørrelse](images/opret-opgave-1.png)
+*Vælg den størrelse der passer bedst til din opgave - hver størrelse har forskellige tidsestimater*
+
 2. **Indtast tekst**: Indsæt email, beskrivelse eller anden tekst
+
+![Indtast oplysninger](images/opret-opgave-2.png)
+*Indtast opgavens detaljer og vedhæft relevante filer - AI'en hjælper med at strukturere informationen*
+
 3. **Upload filer**: Vedhæft relevante dokumenter (PDF, DOCX, XLSX, billeder)
 4. **Generer opgave**: AI analyserer teksten og foreslår en struktureret opgave
 5. **Rediger og tilpas**: Juster titel, beskrivelse, datoer og andre felter via dropdown-lister
@@ -73,6 +81,9 @@ Når appen kører, er den tilgængelig på: **http://localhost:8501**
 - Få overblik over statistikker centreret i toppen
 - Søg i dine opgaver direkte fra forsiden
 - Brug "Hurtig handling" til at springe direkte til specifikke indstillinger
+
+![OA Dashboard](images/dashboard.png)
+*Dashboardet giver et hurtigt overblik over alle dine opgaver med statistik og søgefunktion*
 
 ### Brugerdefineret Gem-mappe
 1. **Gå til Indstillinger** → **Gem-mappe**
