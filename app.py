@@ -792,8 +792,13 @@ page = st.session_state.nav_page
 
 # Side: Opgaver
 if page == "Opgaver":
-    st.title("📊 OA Dashboard")
-    st.write("Få overblik over dine igangværende opgaver.")
+    # Header med logo
+    col_title, col_logo = st.columns([3, 1])
+    with col_title:
+        st.title("📊 OA Dashboard")
+        st.write("Få overblik over dine igangværende opgaver.")
+    with col_logo:
+        st.image("images/mtm-logo.png", width=150)
     
     with st.spinner("Indlæser statistik..."):
         local_tasks = get_local_task_files()
