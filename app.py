@@ -924,13 +924,11 @@ elif page == "Opret opgave":
                                 key="input_text")
             
             # Filupload
-            st.markdown('<div class="upload-label">📁 Vedhæft relevante bilag (valgfrit)</div>', unsafe_allow_html=True)
             uploaded_files = st.file_uploader(
-                "Træk og slip filer her eller klik for at gennemsøge", 
+                "📁 Vedhæft relevante bilag (valgfrit) - Træk og slip filer her eller klik for at gennemsøge", 
                 accept_multiple_files=True, 
-                type=['pdf', 'docx', 'xlsx', 'jpg', 'png'],
-                help="Understøtter PDF, Word, Excel og billeder",
-                label_visibility="collapsed"
+                type=['pdf', 'docx', 'xlsx', 'jpg', 'png', 'jpeg'],
+                help="Understøtter PDF, Word, Excel og billeder"
             )
             
             if uploaded_files:
