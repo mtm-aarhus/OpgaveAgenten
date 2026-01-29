@@ -1287,7 +1287,6 @@ elif page == "Test LLM-forbindelser":
         # Samlet konklusion
         st.divider()
         if any_working:
-            st.balloons()
             st.success("### ✅ Systemet er klar!")
             st.markdown("""
             Mindst én AI-model er korrekt konfigureret og klar til brug. 
