@@ -73,7 +73,7 @@ Når appen kører, er den tilgængelig på: **http://localhost:8501**
 
 ## GDPR og Databeskyttelse
 
-**Vigtigt:** Før du indsætter tekst (emails, dokumenter, beskrivelser etc.) i OpgaveAgenten, skal du sikre dig at personoplysninger og personfølsomme oplysninger er fjernet eller anonymiseret.
+**Vigtigt:** Når du har indsat tekst (emails, dokumenter, beskrivelser etc.) i OpgaveAgenten, skal du kontrollere og rydde teksten for personoplysninger og personfølsomme oplysninger **før du klikker på "Analyser og generer opgaveforslag"**.
 
 ### Hvad skal du fjerne?
 - **Personoplysninger**: Navne, adresser, telefonnumre, e-mailadresser, CPR-numre
@@ -81,10 +81,12 @@ Når appen kører, er den tilgængelig på: **http://localhost:8501**
 - **Andre identificerbare data**: Medarbejder-ID'er, sagsnumre der kan spores til enkeltpersoner
 
 ### Sådan gør du
-1. Gennemlæs teksten inden du indsætter den
-2. Erstat personnavne med generiske betegnelser (f.eks. "borger", "medarbejder", "afdeling X")
-3. Fjern eller anonymiser kontaktoplysninger
-4. Slet eventuelle CPR-numre eller andre unikke identifikatorer
+1. Indsæt din tekst i feltet
+2. Gennemlæs teksten og kontrollér for personoplysninger
+3. Erstat personnavne med generiske betegnelser (f.eks. "borger", "medarbejder", "afdeling X")
+4. Fjern eller anonymiser kontaktoplysninger
+5. Slet eventuelle CPR-numre eller andre unikke identifikatorer
+6. Klik først på "Analyser og generer opgaveforslag" når teksten er renset
 
 **Husk:** Teksten sendes til en ekstern AI-tjeneste (Google Gemini eller OpenAI) for at generere opgaven. Det er dit ansvar at sikre, at data der sendes overholder GDPR og kommunens retningslinjer for databeskyttelse.
 
