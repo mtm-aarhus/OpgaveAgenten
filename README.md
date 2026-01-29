@@ -32,6 +32,16 @@ En intelligent webapplikation til automatisk generering og administration af opg
 - **Dynamisk Konfiguration**: Ret tovholdere, afdelinger og statuser direkte i appen uden at røre koden
 - **API-test**: Indbygget test af AI-forbindelser med status-feedback
 
+## 📺 Media
+
+| Type | Beskrivelse | Link |
+|------|-------------|------|
+| 🎬 **Video** | Demo af OpgaveAgenten | [Se video (MP4)](https://github.com/mtm-aarhus/OpgaveAgenten/releases/download/v.1.0.0/OpgaveAgententen.mp4) |
+| 🎧 **Podcast** | Introduktion til OpgaveAgenten | [Lyt til podcast (M4A)](https://github.com/mtm-aarhus/OpgaveAgenten/releases/download/v.1.0.0/OpgaveAgententen_Podcast.m4a) |
+| 📄 **Præsentation** | OpgaveAgenten Præsentation | [Åbn PDF](Docs/OpgaveAgenten_PP.pdf) |
+
+---
+
 ## Hurtig opstart (for alle brugere)
 
 Hvis du bare vil i gang uden at rode med kode, så følg vores enkle guide her:  
