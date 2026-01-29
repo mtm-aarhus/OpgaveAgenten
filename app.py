@@ -990,14 +990,18 @@ elif page == "Opret opgave":
                 <p>For at få det skarpeste resultat, anbefaler vi at følge disse trin:</p>
                 <div class="guide-step">
                     <div class="step-number">1</div>
-                    <div><b>Indsæt kildetekst:</b> Kopier en hel mail-tråd eller projektbeskrivelse ind i feltet. Jo mere kontekst, jo bedre forstår AI'en opgaven.</div>
+                    <div><b>Fjern persondata (GDPR):</b> Slet navne, CPR-numre, adresser og andre personoplysninger fra teksten inden du indsætter den. Data sendes til ekstern AI.</div>
                 </div>
                 <div class="guide-step">
                     <div class="step-number">2</div>
-                    <div><b>Tilføj filer:</b> Har du specifikationsdokumenter eller billeder? Vedhæft dem som ekstra reference.</div>
+                    <div><b>Indsæt kildetekst:</b> Kopier en hel mail-tråd eller projektbeskrivelse ind i feltet. Jo mere kontekst, jo bedre forstår AI'en opgaven.</div>
                 </div>
                 <div class="guide-step">
                     <div class="step-number">3</div>
+                    <div><b>Tilføj filer:</b> Har du specifikationsdokumenter eller billeder? Vedhæft dem som ekstra reference.</div>
+                </div>
+                <div class="guide-step">
+                    <div class="step-number">4</div>
                     <div><b>Kør analysen:</b> Klik på knappen for at lade AI'en udtrække titler, ansvarlige og oprette forslag til underopgaver.</div>
                 </div>
                 <p style="font-size: 0.85rem; margin-top: 1rem; font-style: italic;">
